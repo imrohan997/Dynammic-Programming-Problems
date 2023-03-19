@@ -3,8 +3,8 @@
  */
 public class Main {
     public static void main(String[] args) {
-        int wt[] = {4,5,6};
-        int val[] = {1,2,3};
+        int wt[] = {4, 5, 1};
+        int val[] = {1, 2, 3};
         int W = 3;
 
         System.out.println(knapSack0_1(W, wt, val, wt.length));
